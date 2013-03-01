@@ -1,4 +1,3 @@
-
 from astronomy import Astronomy
 from atmosphere import Atmosphere
 from condition import Condition
