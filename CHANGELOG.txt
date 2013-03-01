@@ -1,0 +1,4 @@
+v1.0.2 (2013-03-01)
+    *Fixed bug where a ValueError was called if certain temperature and pressure
+     values were not found.
+    *Added changelog, changed MANIFEST to include LICENSE and README

@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
     name = 'weatherpy',
     packages = ['weatherpy'],
-    version = '1.0.1',
+    version = '1.0.2',
     description = 'Python wrapper for Yahoo weather API',
     author = 'Christopher McDowell',
     author_email = 'chris.p.mcdowell@gmail.com',
