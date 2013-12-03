@@ -30,4 +30,8 @@ class Forecast(object):
             self.high = int(forecast['high'])
         except ValueError:
             self.high = None
+        try:
+            self.code = int(forecast['code'])
+        except ValueError:
+            self.code = None
         self.text = forecast['text']
